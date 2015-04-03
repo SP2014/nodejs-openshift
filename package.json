@@ -1,0 +1,40 @@
+{
+  "name": "MyApplication",
+  "version": "1.0.0",
+  "description": "Awesome application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "Me",
+    "email": "me@me.io",
+    "url": "http://me.io/"
+  },
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.12.2",
+    "express": "4.10.3",
+    "jsonwebtoken": "^4.2.1",
+    "mongoose": "^3.8.24",
+    "morgan": "^1.5.2"
+  },
+  "peerDependencies": {
+    "express": "^4.10.3"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
