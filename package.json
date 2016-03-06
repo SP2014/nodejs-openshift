@@ -1,23 +1,14 @@
 {
   "name": "MyApplication",
   "version": "1.0.0",
-  "description": "Awesome application",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
+  "description": "Travel India",
   "author": {
-    "name": "Me",
-    "email": "me@me.io",
-    "url": "http://me.io/"
+    "name": "aashishkatlam",
+    "email": "",
+    "url": ""
   },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
+  "homepage": "",
+  "repository": {},
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
@@ -36,5 +27,9 @@
   "devDependencies": {},
   "bundleDependencies": [],
   "private": true,
-  "main": "server.js"
+  {
+  "scripts": {
+    "start": "node server.js"
+  }
+}
 }
